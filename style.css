@@ -1,0 +1,44 @@
+body {
+    background-color: #d5c7bc;
+}
+
+h1 {
+    text-align: center;
+    color: #8c001a;
+}
+
+h2 {
+    text-align: center;
+    color: #175676;
+}
+
+h3 {
+    text-align: center;
+    color: #1b998b;
+}
+
+h4 {
+    color: #8c001a;
+}
+
+p {
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    color: #533b4d;
+}
+.back {
+    text-align: center;
+}
+.name {
+    font-size: 30px;
+    font-style: italic;
+}
+nav a {
+    color: #db9d41;
+}
