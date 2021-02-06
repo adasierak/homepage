@@ -1,106 +1,110 @@
 body {
-    background-color: #d5c7bc;
+  background-color: #d5c7bc;
 }
+
 .christmas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
+
 .christmas__title {
-    text-align: center;
-    color: #175676;
-    padding-top: 40px;
+  text-align: center;
+  color: #175676;
+  padding-top: 40px;
 }
 
 .christmas__title--main {
-    color: #8c001a;
+  color: #8c001a;
 }
+
 .christmas__name {
-    color: #1b998b;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    align-self: flex-start;
+  color: #1b998b;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  align-self: flex-start;
 }
+
 .christmas__name--decoration {
-    font-size: 15px;
+  font-size: 15px;
 }
+
 .christmas__description {
-    width: 80%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
-    text-align: center;
-    color: #533b4d;
-    padding: 20px 0;
+  text-align: center;
+  color: #533b4d;
+  padding: 20px 0;
 }
 
 .christmas__back {
-    text-align: center;
+  text-align: center;
 }
 
-
 .navigation__link {
-    color: #db9d41;
+  color: #db9d41;
 }
 
 .christmas__box {
-    display: flex;
-    flex-direction: column;
-    margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
 }
 
 .christmas__family {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .christmas__image {
-    height: 150px;
-    width: 100px;
+  height: 150px;
+  width: 100px;
 }
 
 .christmas__list {
-    justify-content: center;
+  justify-content: center;
 }
 
 .christmas__kitchen {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #bcbed5;
-    margin: 0 30px 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #bcbed5;
+  margin: 0 30px 0 30px;
 }
 
 .christmas__presents {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #bcbed5;
-    padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #bcbed5;
+  padding-bottom: 50px;
 }
 
 .christmas__decoration {
-    display: flex;
-    flex-direction: column;
-    background-color: #bcbed5;
-    margin: 0 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #bcbed5;
+  margin: 0 30px 0 30px;
 }
 
 .christmas__gifts {
-    display: flex;
-    flex-direction: column;
-    background-color: #bcbed5;
-    margin: 0 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #bcbed5;
+  margin: 0 30px 0 30px;
 }
 
 .christmas__foto {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-bottom: 30px;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  justify-content: space-evenly;
 }
