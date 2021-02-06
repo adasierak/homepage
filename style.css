@@ -1,29 +1,31 @@
 body {
     background-color: #d5c7bc;
 }
-h1 {
-    text-align: center;
-    color: #8c001a;
+.christmas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-
-h2 {
+.christmas__title {
     text-align: center;
     color: #175676;
     padding-top: 40px;
 }
 
-h3 {
-    text-align: center;
-    color: #1b998b;
-}
-
-h4 {
+.christmas__title--main {
     color: #8c001a;
-    text-align: center;
-    font-size: 20px;
 }
-
-p {
+.christmas__name {
+    color: #1b998b;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    align-self: flex-start;
+}
+.christmas__name--decoration {
+    font-size: 15px;
+}
+.christmas__description {
     width: 80%;
     text-align: center;
     margin-left: auto;
@@ -35,60 +37,67 @@ footer {
     color: #533b4d;
     padding: 20px 0;
 }
-.back {
+
+.christmas__back {
     text-align: center;
 }
-.name {
-    font-size: 30px;
-    font-style: italic;
-    align-self: flex-start;
-}
-nav a {
+
+
+.navigation__link {
     color: #db9d41;
 }
-.box {
+
+.christmas__box {
     display: flex;
     flex-direction: column;
     margin: 0 30px;
 }
-.family {
+
+.christmas__family {
     display: flex;
     flex-direction: row;
 }
-.image {
+
+.christmas__image {
     height: 150px;
     width: 100px;
 }
-.list {
+
+.christmas__list {
     justify-content: center;
 }
-.kitchen {
+
+.christmas__kitchen {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: #bcbed5;
     margin: 0 30px 0 30px;
 }
-.presents {
+
+.christmas__presents {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: #bcbed5;
     padding-bottom: 50px;
 }
-.decoration {
+
+.christmas__decoration {
     display: flex;
     flex-direction: column;
     background-color: #bcbed5;
     margin: 0 30px 0 30px;
 }
-.gifts {
+
+.christmas__gifts {
     display: flex;
     flex-direction: column;
     background-color: #bcbed5;
     margin: 0 30px 0 30px;
 }
-.foto {
+
+.christmas__foto {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
