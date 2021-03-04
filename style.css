@@ -26,6 +26,7 @@ body {
 
 .christmas__title--main {
   color: #8c001a;
+  padding: 0;
 }
 
 .christmas__name {
@@ -57,8 +58,16 @@ footer {
   text-align: center;
 }
 
+.navigation {
+  margin: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .navigation__link {
   color: #db9d41;
+  margin: 16px;
 }
 
 .christmas__box {
